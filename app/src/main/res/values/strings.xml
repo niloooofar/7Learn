@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">7learn</string>
+    <string name="app_feature_latest_posts">latest posts</string>
+    <string name="app_feature_user_profile">user profile</string>
+    <string name="app_feature_fashion">feature fashion</string>
+    <string name="app_feature_music_player">music player</string>
+    <string name="app_feature_video_player">video player</string>
+    <string name="app_feature_login">login</string>
+</resources>

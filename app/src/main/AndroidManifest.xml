@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.a7learn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.activitys.ProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".view.activitys.PostsActivity" />
+        <activity android:name=".view.activitys.FragmentSampleActivity" />
+        <activity android:name=".view.activitys.FirstActivitySt">
+
+        </activity>
+        <activity android:name=".view.activitys.BotikActivity" />
+
+        <activity android:name=".view.activitys.WeatherSampleActivity" />
+        <activity android:name=".view.activitys.PostActivity" />
+        <activity android:name=".view.activitys.GlideActivity" />
+        <activity
+            android:name=".view.activitys.MainActivity"
+            android:label="7learn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

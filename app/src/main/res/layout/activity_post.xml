@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/standard_margin"
+    style="@style/default_card_view_setting">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.activitys.PostActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/post_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/pic1" />
+
+                <TextView
+                    android:id="@+id/post_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/large_font_size"
+                    tools:text="لورم ایپسوم چیست؟" />
+
+                <TextView
+                    android:id="@+id/post_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textSize="@dimen/normal_font_size"
+                    tools:text=" لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد." />
+
+                <TextView
+                    android:id="@+id/post_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textSize="@dimen/small_font_size"
+                    tools:text="۲ساعت پیش" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
